@@ -18,6 +18,7 @@ class ExchangeService
   end
 
   private
+  
   def get_exchange
     exchange_api_url = Rails.application.credentials[:currency_api_url]
     exchange_api_key = Rails.application.credentials[:currency_api_key]
