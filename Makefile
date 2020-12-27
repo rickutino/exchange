@@ -22,7 +22,7 @@ console:
 	$(RUN) bundle exec rails c -e $(env)
 
 rspec:
-	$(RUN) bundle exec rspec $(spec)
+	$(RUN) bundle exec rspec $(spec) --format documentation
 
 create:
 	$(RUN) bundle exec rake db:create
