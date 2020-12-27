@@ -6,13 +6,20 @@ env := development
 setup:
 	docker-compose build
 	make bundle
-	make reset
+	make create
+	make migrate
+	$(RUN) bundle exec yarn add jquery
+	$(RUN) bundle exec yarn add bootstrap
 
 bundle:
 	$(RUN) bundle install
 
 serve:
 	docker-compose up
+
+credentials:
+	rm credentials.yml.enc
+	docker-compose run --rm -e EDITOR=nano app bundle exec rails credentials:edit
 
 serve_debug:
 	docker-compose up -d
