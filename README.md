@@ -14,7 +14,6 @@ Currency exchange rate calculator and exchange rates.
 <!--ts-->
    * [Technology](#technology)
    * [Services Used](#services-used)
-   * [Ruby Gem](#ruby-gems)
    * [Library](#library)
    * [Getting started](#getting-started)
    * [Features](#features)
@@ -38,10 +37,7 @@ Here are the technologies used in this project.
 
 ## Services Used
 - [Currency Data Feed[API]](https://currencydatafeed.com)
-## Ruby Gems
-- Rspec-rails
-- Rest-client
-- Bootsnap
+
 
 ## Getting started
 
