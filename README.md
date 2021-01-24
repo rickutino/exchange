@@ -75,7 +75,7 @@ Here are the technologies used in this project.
 ## Links
 
   - Link of deployed application: (if has been deployed)
-  - Repository: https://exchange.ricardo-uchino.com
+  - Repository: http://exchange.ricardo-uchino.com
     - In case of sensitive bugs like security vulnerabilities, please contact
       YOUR EMAIL directly instead of using issue tracker. We value your effort
       to improve the security and privacy of this project!
